@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="174" height="64" viewBox="0 0 174 64">
+  <g id="Group_4" data-name="Group 4" transform="translate(-418 -100)">
+    <g id="Group_24" data-name="Group 24">
+      <g id="Rectangle_11" data-name="Rectangle 11" transform="translate(418 100)" fill="none" stroke="#d6d6d6" stroke-width="1">
+        <rect width="174" height="64" stroke="none"/>
+        <rect x="0.5" y="0.5" width="173" height="63" fill="none"/>
+      </g>
+      <g id="Group_25" data-name="Group 25" transform="translate(10 5)" opacity="0.75">
+        <path id="path2" d="M22.7,5.36,15.2,31.608A1.876,1.876,0,1,0,18.8,32.64L26.3,6.391A1.876,1.876,0,0,0,22.7,5.36ZM6.526,19,12.7,25.174a1.875,1.875,0,0,1-2.651,2.651l-7.5-7.5a1.873,1.873,0,0,1,0-2.651l7.5-7.5A1.875,1.875,0,0,1,12.7,12.826Zm28.446,0L28.8,12.826a1.875,1.875,0,0,1,2.651-2.651l7.5,7.5a1.873,1.873,0,0,1,0,2.651l-7.5,7.5A1.875,1.875,0,0,1,28.8,25.174Z" transform="translate(419 108)" fill="#fff" fill-rule="evenodd"/>
+        <text id="KIRAN_DEVADAS" data-name="KIRAN
+DEVADAS" transform="translate(474 122)" fill="#fff" font-size="21" font-family="Rubik-Medium, Rubik" font-weight="500"><tspan x="0" y="0">KIRAN</tspan><tspan font-family="Rubik-Regular, Rubik" font-weight="400"><tspan x="0" y="25">DEVADAS</tspan></tspan></text>
+      </g>
+    </g>
+  </g>
+</svg>

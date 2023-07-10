@@ -1,0 +1,30 @@
+@import 'assets/scss/variables.scss';
+
+.wrapper {
+    background-color: $primaryShadeThree;
+    width: 100%;
+    border-right: 1px solid rgba($gray, 0.25);
+    & .file-name {
+        margin-top: -3.5rem;
+        height: 3.5rem;
+        width: fit-content;
+        padding: 0 1.5rem;
+        background-color: $primaryShadeThree;
+        font-family: $primaryFont;
+        & .close {
+            cursor: pointer;
+            & svg {
+                fill: $gray;
+                height: 0.75rem;
+                width: 0.75rem;
+                margin-left: 2rem;
+            }
+            &:hover {
+                opacity: 0.5;
+            }
+        }
+    }
+    & .inner-wrapper {
+        padding: 4rem 5rem;
+    }
+}

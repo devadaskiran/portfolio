@@ -1,0 +1,49 @@
+@import 'assets/scss/variables.scss';
+
+.wrapper {
+    width: 30rem;
+    background-color: $primaryShadeTwo;
+    padding: 1rem 2.5rem;
+    font-family: $primaryFont;
+    & p {
+        font-size: $textMedium;
+        text-transform: uppercase;
+        &:first-child {
+            font-weight: 100;
+            margin-bottom: 1.5rem;
+        }
+    }
+    & .project-name {
+        font-weight: 400;
+        margin-left: -2rem;
+        margin-bottom: 2rem;
+        & svg {
+            fill: $light;
+            height: 1rem;
+            width: 1.75rem;
+            margin-right: 0.25rem;
+        }
+    }
+    & .folder {
+        & p {
+            font-size: $textPrimary;
+            text-transform: capitalize;
+        }
+        & .arrow {
+            margin-right: 0.5rem;
+            & svg {
+                fill: $light;
+                height: 1rem;
+                width: 1rem;
+            }
+        }
+        & ul {
+            list-style: none;
+            margin-left: 4.75rem;
+            margin-bottom: 2rem;
+            & li {
+                margin-bottom: 1rem;
+            }
+        }
+    }
+}

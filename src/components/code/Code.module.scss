@@ -1,0 +1,13 @@
+@import 'assets/scss/variables.scss';
+
+.wrapper {
+    color: $code;
+    font-size: $textPrimary;
+    font-family: $secondaryFont;
+    font-weight: 300;
+    & span {
+        color: $light;
+        padding-left: 2rem;
+        display: inline-block;
+    }
+}
