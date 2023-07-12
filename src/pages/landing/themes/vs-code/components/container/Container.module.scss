@@ -1,0 +1,19 @@
+@import 'assets/scss/variables.scss';
+
+.wrapper {
+    background-color: $darkShadeThree;
+    padding-top: 3.5rem;
+    max-height: calc(100% - 3.5rem);
+    border-left: 1px solid rgba($gray, 0.25);
+    & .introduction {
+        & .logo {
+            margin-bottom: 3rem;
+        }
+        & .comment {
+            margin-bottom: 3rem;
+        }
+        & .heading {
+            margin-bottom: 2rem;
+        }
+    }
+}

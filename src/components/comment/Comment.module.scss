@@ -4,5 +4,22 @@
     color: $grayTwo;
     font-size: $textPrimary;
     font-family: $secondaryFont;
+    width: fit-content;
     font-weight: 300;
+    // position: relative;
+    // border-right: 2px solid rgba(255,255,255,.75);
+    // white-space: nowrap;
+    // overflow: hidden;
+    // transform: translateY(-50%);   
+    // animation: typewriter 7.5s steps(44) 0.1s 1 normal both,
+    //          blinkTextCursor 500ms steps(44) infinite normal;
 }
+
+@keyframes typewriter{
+    from{width: 0;}
+    to{width: 27.5rem;}
+  }
+  @keyframes blinkTextCursor{
+    from{border-right-color: rgba(255,255,255,.75);}
+    to{border-right-color: transparent;}
+  }

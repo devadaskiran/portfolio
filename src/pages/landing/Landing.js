@@ -1,19 +1,26 @@
-import React from 'react'
+import React, {useState} from 'react'
 
-import { Container, FolderExplorer, Footer, Header, SideBar } from './components';
-import { strings } from 'assets/data/data';
+import { Default, VSCode } from './themes';
+
+import ThemeSwitch from 'components/theme-switch/ThemeSwitch';
 import styles from './Landing.module.scss';
 
-const Landing = ({projectName}) => {
+const Landing = () => {
+    const [vsCode, setVsCode] = useState(false);
+
+    const handleVsCode = () => {
+        setVsCode(true);
+    };
+    const handleDefault = () => {
+        setVsCode(false);
+    };
     return (
-        <div className={`d-flex w-100 flex-column ${styles.container}`}>
-            <Header projectName={strings.projectName}/>
-            <div className='d-flex h-100'>
-                <SideBar/>
-                <FolderExplorer projectName={strings.projectName}/>
-                <Container/>
-            </div>
-            <Footer/>
+        <div className={styles.wrapper}>
+            <ThemeSwitch handleDefault={handleDefault} handleVsCode={handleVsCode}/>
+            {vsCode ?
+                <VSCode/> :
+                <Default/>
+            }
         </div>
     );
 };

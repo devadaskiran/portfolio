@@ -1,0 +1,52 @@
+@import 'assets/scss/variables.scss';
+
+.wrapper {
+    background-color: $darkShadeFive;
+    padding: 1rem 0;
+    text-align: center;
+    font-family: $secondaryFont;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    @include md {
+        display: flex;
+        justify-content: space-between;
+        padding-left: 2rem;
+        & li {
+            &:first-child {
+                display: none;
+            }
+            &:nth-child(2) {
+                border-left: 1px solid rgba(167, 167, 167, 0.25);
+            }
+        }
+    }
+    & .socialmedia {
+        display: none;
+        @include md {
+            display: block;
+        }
+    }
+    & .logo {
+        & p {
+            line-height: 1;
+            color: rgba($light, 0.5);
+            @include md {
+                font-size: $textPrimary;
+            }
+        }
+        & svg {
+            height: 2rem;
+            width: 2rem;
+            display: none;
+            margin-right: 0.5rem;
+            fill: rgba($light, 0.5);
+            @include md {
+                display: block;
+            }
+        }
+    }
+    @include md {
+        background-color: $darkShadeSix;
+    }
+}

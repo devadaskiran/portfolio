@@ -1,0 +1,15 @@
+@import 'assets/scss/variables.scss';
+
+.social-media {
+    list-style: none;
+    & li {
+        padding: 1rem 1.5rem;
+        margin: -1rem 0;
+        border-right: 1px solid rgba($gray, 0.25);
+        & svg {
+            height: 1.5rem;
+            width: 1.5rem;
+            fill: $light;
+        }
+    }
+}

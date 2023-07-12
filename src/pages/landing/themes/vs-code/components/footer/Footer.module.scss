@@ -1,0 +1,26 @@
+@import 'assets/scss/variables.scss';
+
+.wrapper {
+    background-color: $secondaryMain;
+    height: 3rem;
+    font-family: $primaryFont;
+    & .inner {
+        padding-right: 8rem;
+    }
+    & .side-separate {
+        width: 7rem;
+        background-color: $success;
+    }
+    & .link {
+        margin-left: 2.5rem;
+        font-weight: 300;
+        cursor: pointer;
+        transition: 0.5s all ease-in-out;
+        border-bottom: 1px solid transparent;
+        font-size: $textPrimary;
+        &:hover {
+            opacity: 0.85;
+            border-color: $light;
+        }
+    }
+}

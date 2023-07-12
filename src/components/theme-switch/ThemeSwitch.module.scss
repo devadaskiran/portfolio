@@ -1,0 +1,104 @@
+@import 'assets/scss/variables.scss';
+
+.wrapper {
+    position: fixed;
+    right: 0;
+    cursor: pointer;
+    right: 0;
+    bottom: 0;
+    margin: 5rem;
+    width: 2rem;
+    height: 2rem;
+    overflow: hidden;
+    & svg {
+        height: 100%;
+        width: 100%;
+        fill: $gray;
+    }
+    & .header {
+        & p {
+            opacity: 0;
+            width: 0;
+            position: relative;
+            right: -2.5rem;
+            transition: all 0.5s ease-in-out;
+            color: transparent;
+        }
+    }
+    & ul {
+        width: 0;
+        opacity: 0;
+        list-style: none;
+        margin-bottom: -30rem;
+        transition: all 0.25s ease-in-out;
+        & svg , & img {
+            height: 1.25rem;
+            width: 1.25rem;
+            margin: 0 1.25rem 0 0.15rem;      
+        }
+        & li {
+            height: 0;
+            padding: 0 2rem;
+            & p {
+                position: relative;
+                right: -5rem;
+                transition: all 0.75s ease-in-out;
+            }
+        }
+    }
+    &.dropdown {
+        width: 15rem;
+        height: auto;
+        border-radius: 1.5rem;
+        background-color: $darkShadeTwo;
+        padding: 2rem;
+        display: flex;
+        flex-direction: column;
+        box-shadow: 5px 2px 35px 15px rgba($dark, 0.15);
+        & .header {
+            width: 100%;
+            background: rgba($darkShadeFour, 0.5);
+            padding: 1rem 2rem;
+            margin: -2rem -2rem 0;
+            opacity: 1;
+            & p {
+                display: block;
+                margin-left: 1rem;
+                font-size: $textSmall;
+                right: 0;
+                width: auto;
+                opacity: 1;
+                color: $light;
+            }
+            & svg {
+                height: 1.5rem;
+            }
+        }
+        & ul {
+            width: 100%;
+            padding: 1rem 2rem;
+            margin: -1rem -2rem -3rem;
+            opacity: 1;
+            & li {
+                margin: 0 -2rem 0;
+                padding: 1.25rem 2rem;
+                border-bottom: 1px solid rgba($gray, 0.15);
+                transition: all 0.5s ease-in-out;
+                height: auto;
+                &:last-child {
+                    border-bottom: 0;
+                }
+                &:hover {
+                    background-color: rgba($darkShadeFour, 0.25);
+                }
+                & p {
+                    left: 0;
+                    opacity: 0.75;
+                }
+            }
+        }
+    }
+    @include xl {
+        display: none;
+    }
+}

@@ -1,0 +1,16 @@
+@import 'assets/scss/variables.scss';
+
+.wrapper {
+    background-color: $darkShadeFive;
+    padding: 1rem 1.5rem 1rem 0;
+    border-top: 1px solid rgba($gray, 0.25);
+    font-family: $secondaryFont;
+    & .socialmedia {
+        @include md {
+            display: none;
+        }
+    }
+    @include md {
+        display: none;
+    }
+}

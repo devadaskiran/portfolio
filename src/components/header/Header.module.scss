@@ -1,0 +1,14 @@
+@import 'assets/scss/variables.scss';
+
+.wrapper {
+    background-color: $darkShadeOne;
+    padding: 1rem 0;
+    text-align: center;
+    font-family: $primaryFont;
+    $textPrimary: $textMedium;
+    position: relative;
+    & :global(.dropdown-global) {
+        background-color: $darkShadeTwo;
+        text-align: left;
+    }
+}

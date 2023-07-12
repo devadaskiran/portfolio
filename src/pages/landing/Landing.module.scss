@@ -1,5 +1,16 @@
 @import 'assets/scss/variables.scss';
 
-.container {
-    height: 100vh;
+.wrapper {
+    position: relative;
+    font-family: $primaryFont;
+    & .dropdown {
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 2.4rem;
+        & svg {
+            height: 1rem;
+            width: 1rem;
+        }
+    }
 }

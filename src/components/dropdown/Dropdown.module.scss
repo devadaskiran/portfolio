@@ -1,0 +1,37 @@
+@import 'assets/scss/variables.scss';
+
+.wrapper {
+    position: relative;
+    & .dropdown-window {
+        padding: 10px 0;
+        border-radius: 15px;
+        box-shadow: 0 0 20px 0px rgba(41, 41, 41, 0.2);
+        min-width: 240px;
+        position: absolute;
+        right: 1.5rem;
+        top: 1.5rem;
+        margin-top: 0.5rem;
+        z-index: 999;
+        & ul {
+            list-style: none;
+            & li {
+                padding: 10px 15px;
+                cursor: pointer;
+                display: flex;
+                align-items: center;
+                & img, & svg {
+                    height: 1rem;
+                    width: 1rem;
+                    margin-right: 0.75rem;
+                }
+                &:hover {
+                    background-color: rgba($dark, 0.15);
+                }
+            }
+            &.border-top {
+                border-top: 1px solid rgba($gray, 0.15);
+                margin-top: 0.5rem;
+            }
+        }
+    }
+}
