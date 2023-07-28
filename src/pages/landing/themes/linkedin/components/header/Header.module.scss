@@ -1,0 +1,45 @@
+@import 'assets/scss/variables.scss';
+
+.wrapper {
+    color: $dark;
+    padding: 0.75rem 0;
+    & .container {
+        position: relative;
+        max-width: 1128px;
+        margin: auto;
+        & .logo {
+            margin-right: 1rem;
+            & svg {
+                height: 3.25rem;
+                width: 3.25rem;
+            }
+        }
+        & :global(.floating-button-general) {
+            & svg {
+                fill: $dark;
+            }
+        }
+        & .column {
+            width: 50%;
+        }
+    }
+    & :global(.additional-class) {
+        & :global(.side-panel-global) {
+            background-color: $light;
+            & header {
+                padding: 1.855rem 2rem;
+                & svg {
+                    fill: $danger;
+                }
+            }
+            & ul {
+                & li {
+                    color: $dark;
+                    &:hover {
+                        color: $dark;
+                    }
+                }
+            }
+        }
+    }
+}

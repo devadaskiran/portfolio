@@ -1,0 +1,26 @@
+@import 'assets/scss/variables.scss';
+
+.wrapper {
+    position: relative;
+    min-width: 15rem;
+    & svg {
+        position: absolute;
+        width: 1.25rem;
+        height: 1.25rem;
+        left: 0;
+        top: 0;
+        bottom: 0;
+        margin: auto 0.75rem;
+    }
+    & input {
+        padding: 0.625rem 1rem 0.625rem 2.35rem;
+        border-radius: 5px;
+        border: 2px solid transparent;
+        background-color: rgba($gray , 0.15);
+        line-height: 1.5;
+        width: 100%;
+        &:focus {
+            border-color: $secondaryMain;
+        }
+    }
+}

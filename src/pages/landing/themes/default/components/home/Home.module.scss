@@ -28,6 +28,10 @@
             text-transform: capitalize;
             letter-spacing: -0.5px;
             font-weight: 400;
+            @include md {
+                font-size: $textLarge;
+                margin: 1rem 0 0.25rem;
+            }
         }
         & h4 {
             color: $code;
@@ -35,6 +39,10 @@
             font-weight: 300;
             margin-bottom: 2.5rem;
             letter-spacing: -0.5px;
+            @include md {
+                font-size: $textPrimary;
+                margin-bottom: 1.5rem;
+            }
         }
         & .commented-code {
             font-size: $textSmall;

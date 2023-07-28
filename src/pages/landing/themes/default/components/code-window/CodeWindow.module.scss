@@ -7,7 +7,7 @@
     font-family: $secondaryFont;
     color: rgba($light, 0.5);
     position: relative;
-    max-width: 37.5rem;
+    max-width: 40rem;
     border-radius: 10px;
     border: 1px solid rgba($gray, 0.25);
     margin: auto;
@@ -26,6 +26,9 @@
             }
         }
     }
+    & footer {
+        padding-top: 1rem;
+    }
     & .coding-area {
         background-color: $darkShadeNine;
         padding: 2rem;
@@ -37,26 +40,18 @@
         }
         & .commented-code {
             margin-bottom: 1rem;
-            @include xxl {
-                font-size: 89%;
-            }
+            font-size: 89%;
             @include xl {
                 font-size: 100%;
             }
-            & span {
-                border-left: 1px solid rgba(167, 167, 167, 0.25);
-                padding-left: 1rem;
-                display: inline-block;
-                margin-left: 1rem;
-                line-height: 1.75;
-                @include xxl {
-                    margin-left: 0.55rem;
-                }
-            }
         }
         & a {
-            color: $info;
+            color: $link;
             padding-bottom: 0.5rem;
+            cursor: pointer;
+            &:hover {
+                opacity: 0.75;
+            }
         }
     }
 }

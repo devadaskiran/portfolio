@@ -22,7 +22,7 @@ const FolderExplorer = ({projectName}) => {
                     <FileName type="folder" name="Home"/>
                 </p>
                 <ul>
-                    <li>
+                    <li className={styles.active}>
                         <FileName type="jsx" name="Introduction"/>
                     </li>
                     <li>

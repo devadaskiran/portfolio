@@ -1,0 +1,96 @@
+@import 'assets/scss/variables.scss';
+
+.wrapper {
+    & .code-wrapper {
+        max-width: unset;
+        & :global(.global-coding-area) {
+            padding: 0;
+            & .code-list {
+                & li {
+                    padding: 0 0.5rem;
+                    & span {
+                        min-width: 2.5rem;
+                        opacity: 0.5;
+                        padding: 0 0.25rem;
+                    }
+                    & .description {
+                        border-left: 1px solid rgba($gray, 0.25);
+                        padding: 0.5rem 0.5rem 0.5rem 1.25rem;
+                        width: 100%;
+                        opacity: 0.5;
+                    }
+                    & .testimonial-wrapper {
+                        padding: 1rem;
+                        width: calc(100% - 3rem);
+                        margin: auto;
+                        background-color: rgba($gray, 0.25);
+                        border-radius: 0.5rem;
+                        cursor: pointer;
+                        & .carousel-item {
+                            padding: 0.5rem;
+                            overflow: hidden;
+                            & .avatar-info {
+                                font-family: $primaryFont;
+                                margin-bottom: 1rem;
+                                & .dp {
+                                    width: 2.5rem;
+                                    height: 2.5rem;
+                                    border-radius: 50%;
+                                    margin-right: 1rem;
+                                    overflow: hidden;
+                                    & img {
+                                        width: 100%;
+                                        height: 100%;
+                                    }
+                                }
+                                & h4 {
+                                    font-weight: 400;
+                                    color: $grayThree;
+                                }
+                                & h5 {
+                                    font-weight: 300;
+                                }
+                            }
+                            & .msg-wrapper {
+                                padding-left: 3.5rem;
+                                & .message {
+                                    border: 1px solid rgba($gray, 0.25);
+                                    padding: 1rem;
+                                    width: calc(100% - 3rem);
+                                    border-radius: 0.5rem;
+                                    background-color: rgba($darkShadeSix, 0.25);
+                                    font-family: $handWritingFont;
+                                }
+                            }
+                            & .tag {
+                                background-color: $success;
+                                padding: 0.25rem 0.75rem;
+                                border-radius: 0.25rem;
+                                color: $light;
+                                margin-right: 1.5rem;
+                                height: 1rem;
+                                margin-bottom: 1rem;
+                                font-size: 80%;
+                            }
+                        }
+                    }
+                    &.added-line {
+                        background-color: rgba($success, 0.25);
+                        color: rgba($light, 0.95);
+                    }
+                }
+            }
+        }
+        & .on-off-button {
+            color: $link;
+            margin-top: 1rem;
+            cursor: pointer;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+        & footer {
+            text-align: left;
+        }
+    }
+}

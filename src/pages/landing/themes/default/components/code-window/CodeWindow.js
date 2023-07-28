@@ -1,36 +1,37 @@
 import React from 'react'
 
-import { strings } from 'assets/data/data';
+import { airBnb } from 'assets/data/data';
 
+import { Comment } from 'components';
 import styles from './CodeWindow.module.scss'
 
-const CodeWindow = ({className}) => {
+const CodeWindow = ({ className, projectName, projectDetails, list, children, link, footer }) => {
     return (
         <div className={`d-flex flex-column ${styles.wrapper} ${className}`}>
             <header className='d-flex justify-content-between'>
-               <p>
-                Project Name
-               </p>
-               <p>
-                Project Details
-               </p>
+                <p>
+                    {projectName}
+                </p>
+                <p>
+                    {projectDetails}
+                </p>
             </header>
-            <div className={styles['coding-area']}>
-                <div className={styles['commented-code']}>
-                    /** <br/>
-                        <span>
-                            * Lorem ipsum dolor sit amet, consectetur adipiscing <br/>
-                            * Lorem ipsum dolor sit amet, consectetur adipiscing   <br/>
-                            * Lorem ipsum dolor sit amet, consectetur adipiscing   <br/>
-                            * Lorem ipsum dolor sit amet, consectetur adipiscing   <br/>
-                            */
-                        </span>
-                        
-                </div>
-                <a href='#'>
-                  See the project  
-                </a>
+            <div className={`global-coding-area ${styles['coding-area']}`}>
+                {list &&            
+                    <Comment className={styles['commented-code']} type="css" list={list} />
+                }
+                {children}
+                {link &&
+                    <a target='_blank' href={link}>
+                        Visit the repository
+                    </a>
+                }
             </div>
+            {footer &&
+                <footer>
+                    {footer}
+                </footer>
+            }
         </div>
     );
 };

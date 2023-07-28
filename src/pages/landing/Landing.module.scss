@@ -3,6 +3,9 @@
 .wrapper {
     position: relative;
     font-family: $primaryFont;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
     & .dropdown {
         position: absolute;
         top: 0;

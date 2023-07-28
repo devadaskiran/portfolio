@@ -42,7 +42,18 @@
             margin-left: 4.75rem;
             margin-bottom: 2rem;
             & li {
-                margin-bottom: 1rem;
+                margin: 0 -2.5rem 0 -7.25rem;
+                padding: 0.5rem 0rem 0.5rem 7.25rem;
+                cursor: pointer;
+                position: relative;
+                transition: all ease-in-out 0.25;
+                &:hover {
+                    opacity: 0.75;
+                    background-color: rgba($grayTwo, 0.15);
+                }
+                &.active {
+                    background-color: rgba($grayTwo, 0.25);
+                }
             }
         }
     }

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 import { TerminalIcon } from 'assets/icons';
-import Home from '../home/Home';
+import {Home, About} from '../index';
 import styles from './Tabs.module.scss';
 
 
@@ -10,9 +10,11 @@ const Tabs = () => {
 
   const tabData = [
     { label: 'home', content: <Home/> },
-    { label: 'about me', content: 'about' },
+    { label: 'about me', content: <About/> },
     { label: 'experience', content: 'experience' },
     { label: 'skills', content: 'skills' },
+    { label: 'projects', content: 'project' },
+    { label: 'contact', content: 'contact' },
     { label: ''},
   ];
 

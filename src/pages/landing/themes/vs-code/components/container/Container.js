@@ -16,11 +16,11 @@ const Container = () => {
                 type="jsx"
             >
                 <img src={logo} alt='logo' className={styles.logo} />
-                <Comment className={styles.comment}>
+                <Comment type="js" className={styles.comment}>
                     {strings.designation}
                 </Comment>
                 <Code tag="p">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
+                {strings.about}
                 </Code>
             </Files>
             <Files
@@ -33,13 +33,7 @@ const Container = () => {
                     About Me 
                 </Code>
                 <Code tag="p">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
-                    <br/>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna 
+                    {strings.detailedDescription}
                 </Code>
             </Files>
         </div>

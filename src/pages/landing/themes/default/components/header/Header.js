@@ -6,7 +6,7 @@ import SocialMedia from '../social-media/SocialMedia';
 import { ProgrammingIcon } from 'assets/icons';
 import styles from './Header.module.scss'
 
-const Header = () => {
+const Header = ({themeSwitch}) => {
     return (
         <div className={styles.wrapper}>
             <div className={`d-flex align-items-center ${styles.logo}`}>
@@ -18,6 +18,7 @@ const Header = () => {
             <div className={styles.socialmedia}>
                 <SocialMedia/>
             </div>
+            {themeSwitch}
         </div>
     );
 };

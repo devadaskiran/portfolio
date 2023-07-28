@@ -8,7 +8,6 @@ const Default = () => {
 
     return (
         <div className={`d-flex w-100 flex-column ${styles.wrapper}`}>
-            <Header projectName={strings.name} />
             <Tabs/>
             <Footer/>
         </div>

@@ -1,0 +1,52 @@
+@import 'assets/scss/variables.scss';
+
+.wrapper {
+    & .column {
+        &:first-child {
+            width: 55%;
+            padding-right: 2.5rem;
+        }
+        &:last-child {
+            width: 45%;
+            padding-left: 2.5rem;
+        }
+        & .paragraph {
+            & p {
+                font-size: calc($textMedium - 5px);
+                text-align: justify;
+                margin-bottom: 1.5rem;
+                font-family: $handWritingFont;
+                opacity: 0.5;
+                &::first-letter {
+                    padding-left: 1.5rem;
+                }
+                &:last-child {
+                    &::first-letter {
+                        padding-left: 0;
+                    }
+                }
+            }
+        }
+        & .user {
+            margin-bottom: 2rem;
+            & .dp {
+                height: 15rem;
+            }
+            & h3 {
+                font-size: calc($textMedium + 5px);
+                font-weight: 400;
+                margin: 5rem 0 0.5rem;
+            }
+            & h5 {
+                font-size: calc($textSmall + 1.5px);
+                font-weight: 300;
+                color: $code;
+            }
+        }
+        & .signature {
+            height: 7.5rem;
+            filter: brightness(0) invert(1);
+            margin-bottom: 5rem;
+        }
+    }
+}
