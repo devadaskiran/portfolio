@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
-import { TerminalIcon } from 'assets/icons';
-import {Home, About} from '../index';
+import { HomeIcon, AboutIcon, ExperienceIcon, SkillIcon, ContactIcon } from 'assets/icons';
+import {Home, About, Experience} from '../index';
 import styles from './Tabs.module.scss';
 
 
@@ -9,12 +9,11 @@ const Tabs = () => {
   const [activeTab, setActiveTab] = useState(0);
 
   const tabData = [
-    { label: 'home', content: <Home/> },
-    { label: 'about me', content: <About/> },
-    { label: 'experience', content: 'experience' },
-    { label: 'skills', content: 'skills' },
-    { label: 'projects', content: 'project' },
-    { label: 'contact', content: 'contact' },
+    { label: 'home', content: <Home/>, icon: <HomeIcon/> },
+    { label: 'about me', content: <About/>, icon: <AboutIcon/> },
+    { label: 'experience', content: <Experience/>, icon: <ExperienceIcon/> },
+    { label: 'projects', content: 'project', hideInMobile: true },
+    { label: 'contact', content: 'contact', icon: <ContactIcon/> },
     { label: ''},
   ];
 
@@ -28,10 +27,11 @@ const Tabs = () => {
         {tabData.map((tab, index) => (
           <li
             key={index}
-            className={index === activeTab ? styles.active : ''}
+            className={`${index === activeTab ? styles.active : ''} ${tab.hideInMobile && styles['hide-in-mobile']}`}
             onClick={() => handleTabClick(index)}
           >
-            <TerminalIcon/>
+            
+            {tab.icon}
             <span>_</span>{tab.label}
           </li>
         ))}

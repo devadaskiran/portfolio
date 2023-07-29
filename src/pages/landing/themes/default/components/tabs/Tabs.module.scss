@@ -12,11 +12,15 @@
         border-bottom: 1rem solid $darkShadeFive;
         box-shadow: 0px 10px 20px 20px rgba($darkShadeSix, 0.25);
         border-top: 1px solid rgba($gray, 0.25);
+        @include lg {
+            width: 100%;
+         }
         @include md {
             position: fixed;
             bottom: 0;
             width: 100%;
             z-index: 10;
+            font-family: $primaryFont;
         }
         & li {
             padding: 0.75rem 3.5rem;
@@ -28,6 +32,10 @@
             color: rgba($light, 0.5);
             cursor: pointer;
             font-size: calc($textModerate - 1px);
+            @include lg {
+                padding: 0.75rem 1.5rem;
+                width: 100%;
+            }
             @include md {
                 width: 100%;
                 padding: 1.75rem 0;
@@ -38,7 +46,7 @@
                 }
             }
             @include sm {
-                padding: 0.75rem 0;
+                padding: 0.75rem 0 0.5rem;
                 font-size: 100%;
             }
             &.active {
@@ -51,6 +59,11 @@
                     fill: $info;
                 }
             }
+            &.hide-in-mobile {
+                @include md {
+                    display: none;
+                }
+            }
             &:last-child {
                 width: 100%;
                 color: transparent;
@@ -58,7 +71,7 @@
                 &:hover {
                     color: transparent;
                 }
-                @include md {
+                @include lg {
                     display: none;
                 }
             }
@@ -72,7 +85,8 @@
                     display: block;
                     margin: auto;
                     height: 2rem;
-                    margin-bottom: 0.35rem;
+                    width: 2rem;
+                    margin-bottom: 0.75rem;
                 }
                 @include sm {
                     height: 1.5rem;
@@ -89,6 +103,11 @@
         text-align: left;
         @include xxl {
             padding: 0 4rem;
+            height: calc(100% - 4.35rem);
+        }
+        @include xl {
+            overflow: auto;
+            height: calc(100vh - 10rem);
         }
         @include md {
             padding: 0 2rem;

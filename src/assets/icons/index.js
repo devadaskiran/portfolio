@@ -16,6 +16,17 @@ export { default as ProgrammingIcon } from './programming';
 export { default as TickIcon } from './tick';
 export { default as SearchIcon } from './search';
 export { default as VSCodeIcon } from './vscode';
+export { default as BehanceIcon } from './behance';
+export { default as HomeIcon } from './home';
+export { default as AboutIcon } from './about';
+export { default as ExperienceIcon } from './experience';
+export { default as SkillIcon } from './skills';
+export { default as ContactIcon } from './contact';
+export { default as NewWindowIcon } from './new-window';
+
+
+
+
 
 
 

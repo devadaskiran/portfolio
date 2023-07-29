@@ -6,6 +6,7 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
     & .dropdown {
         position: absolute;
         top: 0;

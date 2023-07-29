@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { airBnb, strings } from 'assets/data/data';
+import { airBnb, strings, description } from 'assets/data/data';
 import { Code, Comment } from 'components';
 import styles from './Home.module.scss';
 import { CodeWindow } from '..';
@@ -18,18 +18,7 @@ const Home = () => {
                 <h4>
                     {strings.designation}
                 </h4>
-                <Comment type="js" className={styles['commented-code']}>
-                    This is my personal website where I showcase my online portfolio.
-                </Comment>
-                <Comment type="js" className={styles['commented-code']}>
-                    I have more than 8 years of experience in UI development and design.
-                </Comment>
-                <Comment type="js" className={styles['commented-code']}>
-                    The purpose of this website is to display my professional experience
-                </Comment>
-                <Comment type="js" className={styles['commented-code']}>
-                    and skills in an organized manner.
-                </Comment>
+                <Comment type="js" className={styles['commented-code']} list={description}/>
                 <Comment type="js" className={styles['mobile-commented-code']}>
                     {strings.about}
                 </Comment>

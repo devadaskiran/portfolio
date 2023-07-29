@@ -9,7 +9,7 @@ import { Testimonials } from './components';
 const About = () => {
     const paragraphs = strings.detailedDescription.split('\n\n');
     return (
-        <div className={`d-flex w-100 ${styles.wrapper}`}>
+        <div className={`d-flex w-100 h-100 align-items-center ${styles.wrapper}`}>
            <div className={styles.column}>
                 <div className={`d-flex align-items-center ${styles.user}`}>
                     <img className={styles.dp} src={kiran} alt='Kiran Devadas - UI/UX Designer and UI Developer with 8+ Years of Experience'/>

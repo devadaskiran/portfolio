@@ -28,6 +28,9 @@
             text-transform: capitalize;
             letter-spacing: -0.5px;
             font-weight: 400;
+            @include xxl {
+                font-size: calc($textExtraLarge - 4px);
+            }
             @include md {
                 font-size: $textLarge;
                 margin: 1rem 0 0.25rem;
@@ -46,18 +49,31 @@
         }
         & .commented-code {
             font-size: $textSmall;
-            @include xl {
+            & ul {
+                & li {
+                    @include xl {
+                        display: none;
+                   }
+                }
+            }
+            & :global(.starting-tag) {
                 display: none;
             }
         }
         & .mobile-commented-code {
             display: none;
             & span {
-                display: none;
+                &:first-child {
+                    display: none;
+                }
             }
             @include xl {
                 display: block;
                 font-size: $textSmall;
+            }
+            @include sm {
+                font-size: calc($textSmall - 2.5px);
+                margin-bottom: 2.5rem;
             }
         }
     }
@@ -71,6 +87,9 @@
             width: 100%;
             bottom: 5rem;
         }
+        @include sm {
+            display: none;
+        }
         & .shadow {
             position: absolute;
             right: 0;
@@ -79,6 +98,7 @@
                 top: -8.5rem;
                 transform: scale(0.8);
                 opacity: 0.25;
+                filter: blur(2px);
                 @include xl {
                     top: auto;
                     bottom: -8.5rem;
@@ -88,14 +108,21 @@
                 top: -4.5rem;
                 transform: scale(0.9);
                 opacity: 0.5;
+                filter: blur(1px);
                 @include xl {
                     top: auto;
                     bottom: -4.5rem;
                 }
             }
+            @include sm {
+                display: none;
+            }
         }
         & .main {
             position: relative;
+            @include sm {
+                margin-top: 1rem;
+            }
             & .small-shadow {
                 position: absolute;
                 width: 50%;

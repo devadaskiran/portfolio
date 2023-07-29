@@ -1,6 +1,6 @@
 import React from 'react'
 
-import { GithubIcon, InstagramIcon, LinkedinIcon } from 'assets/icons';
+import { GithubIcon, InstagramIcon, LinkedinIcon, BehanceIcon } from 'assets/icons';
 import styles from './SocialMedia.module.scss'
 
 const SocialMedia = () => {
@@ -10,13 +10,24 @@ const SocialMedia = () => {
                 Find me in
             </li>
             <li>
-                <LinkedinIcon/>
+                <a target="_blank" href='https://www.linkedin.com/in/kirandevadas/'>
+                    <LinkedinIcon/>
+                </a>
             </li>
             <li>
-                <GithubIcon/>
+                <a target="_blank" href='https://github.com/devadaskiran/'>
+                    <GithubIcon/>
+                </a>
             </li>
             <li>
-                <InstagramIcon/>
+                <a target="_blank" href='https://www.behance.net/_kirandevadas'>
+                    <BehanceIcon/>
+                </a>
+            </li>
+            <li>
+                <a target="_blank" href='https://www.instagram.com/kiran__devadas/'>
+                    <InstagramIcon/>
+                </a>
             </li>
         </ul>
     );

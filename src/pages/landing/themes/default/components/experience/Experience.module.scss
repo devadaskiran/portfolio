@@ -1,0 +1,152 @@
+@import 'assets/scss/variables.scss';
+
+.wrapper {
+    font-family: $primaryFont;
+    @include xl {
+        flex-direction: column;
+        overflow-y: auto;
+        margin: 0 -2rem;
+        width: calc(100% + 4rem);
+    }
+    & .column {
+        max-height: calc(100vh - 11.5rem);
+        overflow: auto;
+        @include xl {
+            overflow: hidden;
+            max-height: 100%;
+        }
+        @include xl {
+            padding: 5rem 0 5rem;
+        }
+        & .exp-wrapper {
+            padding: 5rem 0;
+            @include xl {
+                padding: 0 2rem;
+            }
+        }
+        &:first-child {
+            width: 40%;
+            @include xl {
+                width: 100%;
+                padding: 2.5rem 0;
+            }
+        }
+        &:last-child {
+            width: 60%;
+            margin-right: -8rem;
+            padding-right: 8rem;
+            @include xxl {
+                margin-right: -4rem;
+                padding-right: 4rem;
+            }
+            @include xl {
+                width: 100%;
+                margin: 0 0 3rem;
+                padding: 0;
+                overflow: auto;
+            }
+            @include sm {
+                margin: 0;
+            }
+        }
+        & .year {
+            min-width: 12.5rem;
+            color: rgba($gray, 0.75);
+            font-size: $textModerate;
+            font-weight: 100;
+            @include sm {
+                background-color: $darkShadeNine;
+                display: flex;
+                width: fit-content;
+                min-width: auto;
+                padding: 0.5rem 0.75rem;
+                border-radius: 0.5rem;
+                font-size: 100%;
+                font-weight: 400;
+                color: rgba($light, 0.75);
+                margin-bottom: 0.75rem;
+            }
+        }
+        & .exp-details {
+            & h4 {
+                font-size: $textMedium;
+                font-weight: 400;
+            }
+            & p {
+                margin: 1rem 0 1.5rem;
+                max-width: 40rem;
+                line-height: 1.5;
+                color: rgba($gray, 0.75);
+                font-size: $textModerate;
+                font-weight: 100;
+                @include xl {
+                    max-width: none;
+                    font-size: $textSmall;
+                }
+            }
+            & .organisation {
+                font-size: $textMedium;
+                font-weight: 400;
+                cursor: pointer;
+                text-decoration: none;
+                color: $light;
+                & .new-window {
+                    width: 1.5rem;
+                    height: 1.5rem;
+                    fill: $light;
+                    margin-left: 0.75rem;
+                }
+                &:hover {
+                    color: $link;
+                    & .new-window {
+                        fill: $link;
+                    }
+                }
+            }
+            & .tag {
+                gap: 0.5rem;
+                max-width: 40rem;
+                flex-flow: wrap;
+                margin-bottom: 2.5rem;
+                @include xl {
+                    max-width: none;
+                }
+                & li {
+                    background-color: rgba($link, 0.125);
+                    color: $link;
+                    padding: 0.75rem 1rem;
+                    border-radius: 1.5rem;
+                }
+            }
+        }
+        & .exp-items {
+            margin-bottom: 2.5rem;
+            & .exp-inner-wrapper {
+                @include sm {
+                    flex-direction: column;
+                }
+            }
+        }
+        & .exp-heading {
+            font-family: $secondaryFont;
+            & h2 {
+                font-size: calc($textLarge + 5px);
+                font-weight: 400;
+                margin-bottom: 1rem;
+            }
+            & .commented-code {
+                max-width: 40rem;
+                @include xl {
+                    display: none;
+                }
+            }
+        }
+    }
+    & .dot {
+        width: 0.25rem;
+        height: 0.25rem;
+        background-color: $light;
+        border-radius: 50%;
+        margin: 0 .5rem;
+    }
+}

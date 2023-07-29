@@ -5,6 +5,7 @@ export { default as Home } from './home';
 export { default as CodeWindow } from './code-window';
 export { default as SocialMedia } from './social-media';
 export { default as About } from './about';
+export { default as Experience } from './experience';
 
 
 

@@ -5,6 +5,7 @@ import Slider from "react-slick";
 import { testimonials } from 'assets/data/data';
 import styles from './Testimonials.module.scss'
 import CodeWindow from '../../../code-window/CodeWindow';
+import { LinkedinColorIcon } from 'assets/icons';
 
 const Testimonials = ({ className, carousel }) => {
     const [autoplay, setAutoPlay] = useState(true);
@@ -100,6 +101,9 @@ const Testimonials = ({ className, carousel }) => {
                                                         {testimonialsItem.designation}, {testimonialsItem.organisation}
                                                     </h5>
                                                 </div>
+                                                <a className={styles.linkedin} target='_blank' href={testimonialsItem.linkedinLink}>
+                                                    <LinkedinColorIcon/>
+                                                </a>
                                             </div>
                                             <div className={`d-flex align-items-center ${styles.tag}`}>
                                                 Comment
