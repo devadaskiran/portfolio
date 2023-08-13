@@ -1,26 +1,29 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c55e367c.chunk.css",
-    "main.js": "/portfolio/static/js/main.dc4efabf.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.dc4efabf.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.49537e36.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.49537e36.js.map",
-    "static/js/2.34f06fa8.chunk.js": "/portfolio/static/js/2.34f06fa8.chunk.js",
-    "static/js/2.34f06fa8.chunk.js.map": "/portfolio/static/js/2.34f06fa8.chunk.js.map",
-    "static/js/3.1d6aec28.chunk.js": "/portfolio/static/js/3.1d6aec28.chunk.js",
-    "static/js/3.1d6aec28.chunk.js.map": "/portfolio/static/js/3.1d6aec28.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.5d0bbfd8.chunk.css",
+    "main.js": "/portfolio/static/js/main.98c44c55.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.98c44c55.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.f0861324.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.f0861324.js.map",
+    "static/js/2.92422a52.chunk.js": "/portfolio/static/js/2.92422a52.chunk.js",
+    "static/js/2.92422a52.chunk.js.map": "/portfolio/static/js/2.92422a52.chunk.js.map",
+    "static/js/3.9aa41846.chunk.js": "/portfolio/static/js/3.9aa41846.chunk.js",
+    "static/js/3.9aa41846.chunk.js.map": "/portfolio/static/js/3.9aa41846.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.c55e367c.chunk.css.map": "/portfolio/static/css/main.c55e367c.chunk.css.map",
-    "static/js/2.34f06fa8.chunk.js.LICENSE.txt": "/portfolio/static/js/2.34f06fa8.chunk.js.LICENSE.txt",
+    "static/css/main.5d0bbfd8.chunk.css.map": "/portfolio/static/css/main.5d0bbfd8.chunk.css.map",
+    "static/js/2.92422a52.chunk.js.LICENSE.txt": "/portfolio/static/js/2.92422a52.chunk.js.LICENSE.txt",
     "static/media/1.54bf01d3.jpg": "/portfolio/static/media/1.54bf01d3.jpg",
+    "static/media/University-of-Madras.526a1c89.jpeg": "/portfolio/static/media/University-of-Madras.526a1c89.jpeg",
+    "static/media/cover-photo.97fa297d.jpeg": "/portfolio/static/media/cover-photo.97fa297d.jpeg",
+    "static/media/kiran.1ba2e404.jpeg": "/portfolio/static/media/kiran.1ba2e404.jpeg",
     "static/media/kiranDevadas.61ef3c69.png": "/portfolio/static/media/kiranDevadas.61ef3c69.png",
     "static/media/logo.534218d3.svg": "/portfolio/static/media/logo.534218d3.svg",
     "static/media/vscode.a61dc62c.png": "/portfolio/static/media/vscode.a61dc62c.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.49537e36.js",
-    "static/js/2.34f06fa8.chunk.js",
-    "static/css/main.c55e367c.chunk.css",
-    "static/js/main.dc4efabf.chunk.js"
+    "static/js/runtime-main.f0861324.js",
+    "static/js/2.92422a52.chunk.js",
+    "static/css/main.5d0bbfd8.chunk.css",
+    "static/js/main.98c44c55.chunk.js"
   ]
 }
