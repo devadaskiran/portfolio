@@ -1,18 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.5d0bbfd8.chunk.css",
-    "main.js": "/portfolio/static/js/main.98c44c55.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.98c44c55.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.2bcbcb58.chunk.css",
+    "main.js": "/portfolio/static/js/main.840e6b95.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.840e6b95.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.f0861324.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.f0861324.js.map",
-    "static/js/2.92422a52.chunk.js": "/portfolio/static/js/2.92422a52.chunk.js",
-    "static/js/2.92422a52.chunk.js.map": "/portfolio/static/js/2.92422a52.chunk.js.map",
+    "static/js/2.405f3141.chunk.js": "/portfolio/static/js/2.405f3141.chunk.js",
+    "static/js/2.405f3141.chunk.js.map": "/portfolio/static/js/2.405f3141.chunk.js.map",
     "static/js/3.9aa41846.chunk.js": "/portfolio/static/js/3.9aa41846.chunk.js",
     "static/js/3.9aa41846.chunk.js.map": "/portfolio/static/js/3.9aa41846.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.5d0bbfd8.chunk.css.map": "/portfolio/static/css/main.5d0bbfd8.chunk.css.map",
-    "static/js/2.92422a52.chunk.js.LICENSE.txt": "/portfolio/static/js/2.92422a52.chunk.js.LICENSE.txt",
+    "static/css/main.2bcbcb58.chunk.css.map": "/portfolio/static/css/main.2bcbcb58.chunk.css.map",
+    "static/js/2.405f3141.chunk.js.LICENSE.txt": "/portfolio/static/js/2.405f3141.chunk.js.LICENSE.txt",
     "static/media/1.54bf01d3.jpg": "/portfolio/static/media/1.54bf01d3.jpg",
+    "static/media/KeralaUniversity.b7026ac8.png": "/portfolio/static/media/KeralaUniversity.b7026ac8.png",
     "static/media/University-of-Madras.526a1c89.jpeg": "/portfolio/static/media/University-of-Madras.526a1c89.jpeg",
     "static/media/cover-photo.97fa297d.jpeg": "/portfolio/static/media/cover-photo.97fa297d.jpeg",
     "static/media/kiran.1ba2e404.jpeg": "/portfolio/static/media/kiran.1ba2e404.jpeg",
@@ -22,8 +23,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.f0861324.js",
-    "static/js/2.92422a52.chunk.js",
-    "static/css/main.5d0bbfd8.chunk.css",
-    "static/js/main.98c44c55.chunk.js"
+    "static/js/2.405f3141.chunk.js",
+    "static/css/main.2bcbcb58.chunk.css",
+    "static/js/main.840e6b95.chunk.js"
   ]
 }
