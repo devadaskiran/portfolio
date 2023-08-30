@@ -1,30 +1,34 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.2df1d3b3.chunk.css",
-    "main.js": "/portfolio/static/js/main.b8526734.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.b8526734.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.f0861324.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.f0861324.js.map",
-    "static/js/2.405f3141.chunk.js": "/portfolio/static/js/2.405f3141.chunk.js",
-    "static/js/2.405f3141.chunk.js.map": "/portfolio/static/js/2.405f3141.chunk.js.map",
-    "static/js/3.9aa41846.chunk.js": "/portfolio/static/js/3.9aa41846.chunk.js",
-    "static/js/3.9aa41846.chunk.js.map": "/portfolio/static/js/3.9aa41846.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.bb13b333.chunk.css",
+    "main.js": "/portfolio/static/js/main.51c56b5b.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.51c56b5b.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.92327962.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.92327962.js.map",
+    "static/js/2.4ca4d21c.chunk.js": "/portfolio/static/js/2.4ca4d21c.chunk.js",
+    "static/js/2.4ca4d21c.chunk.js.map": "/portfolio/static/js/2.4ca4d21c.chunk.js.map",
+    "static/js/3.e71c34f6.chunk.js": "/portfolio/static/js/3.e71c34f6.chunk.js",
+    "static/js/3.e71c34f6.chunk.js.map": "/portfolio/static/js/3.e71c34f6.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.2df1d3b3.chunk.css.map": "/portfolio/static/css/main.2df1d3b3.chunk.css.map",
-    "static/js/2.405f3141.chunk.js.LICENSE.txt": "/portfolio/static/js/2.405f3141.chunk.js.LICENSE.txt",
+    "static/css/main.bb13b333.chunk.css.map": "/portfolio/static/css/main.bb13b333.chunk.css.map",
+    "static/js/2.4ca4d21c.chunk.js.LICENSE.txt": "/portfolio/static/js/2.4ca4d21c.chunk.js.LICENSE.txt",
     "static/media/1.54bf01d3.jpg": "/portfolio/static/media/1.54bf01d3.jpg",
     "static/media/KeralaUniversity.b7026ac8.png": "/portfolio/static/media/KeralaUniversity.b7026ac8.png",
+    "static/media/KiranDevadas3.c2523dc8.jpeg": "/portfolio/static/media/KiranDevadas3.c2523dc8.jpeg",
     "static/media/University-of-Madras.526a1c89.jpeg": "/portfolio/static/media/University-of-Madras.526a1c89.jpeg",
     "static/media/cover-photo.97fa297d.jpeg": "/portfolio/static/media/cover-photo.97fa297d.jpeg",
     "static/media/kiran.1ba2e404.jpeg": "/portfolio/static/media/kiran.1ba2e404.jpeg",
     "static/media/kiranDevadas.61ef3c69.png": "/portfolio/static/media/kiranDevadas.61ef3c69.png",
+    "static/media/kiranDevdas2.b887a22a.png": "/portfolio/static/media/kiranDevdas2.b887a22a.png",
     "static/media/logo.534218d3.svg": "/portfolio/static/media/logo.534218d3.svg",
-    "static/media/vscode.a61dc62c.png": "/portfolio/static/media/vscode.a61dc62c.png"
+    "static/media/programming-code-abstract-technology-background-software-developer-computer-script.fb939c4b.jpg": "/portfolio/static/media/programming-code-abstract-technology-background-software-developer-computer-script.fb939c4b.jpg",
+    "static/media/vscode.a61dc62c.png": "/portfolio/static/media/vscode.a61dc62c.png",
+    "static/media/website-design-software-provide-modish-template-online-retail-business.394b5783.jpg": "/portfolio/static/media/website-design-software-provide-modish-template-online-retail-business.394b5783.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.f0861324.js",
-    "static/js/2.405f3141.chunk.js",
-    "static/css/main.2df1d3b3.chunk.css",
-    "static/js/main.b8526734.chunk.js"
+    "static/js/runtime-main.92327962.js",
+    "static/js/2.4ca4d21c.chunk.js",
+    "static/css/main.bb13b333.chunk.css",
+    "static/js/main.51c56b5b.chunk.js"
   ]
 }
