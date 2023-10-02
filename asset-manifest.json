@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.065c3d62.chunk.css",
-    "main.js": "/portfolio/static/js/main.aea55893.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.aea55893.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.01bedbcf.chunk.css",
+    "main.js": "/portfolio/static/js/main.1cd8cfac.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.1cd8cfac.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.b8729fd7.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.b8729fd7.js.map",
-    "static/js/2.44788720.chunk.js": "/portfolio/static/js/2.44788720.chunk.js",
-    "static/js/2.44788720.chunk.js.map": "/portfolio/static/js/2.44788720.chunk.js.map",
+    "static/js/2.49cb81b0.chunk.js": "/portfolio/static/js/2.49cb81b0.chunk.js",
+    "static/js/2.49cb81b0.chunk.js.map": "/portfolio/static/js/2.49cb81b0.chunk.js.map",
     "static/js/3.08136a67.chunk.js": "/portfolio/static/js/3.08136a67.chunk.js",
     "static/js/3.08136a67.chunk.js.map": "/portfolio/static/js/3.08136a67.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.065c3d62.chunk.css.map": "/portfolio/static/css/main.065c3d62.chunk.css.map",
-    "static/js/2.44788720.chunk.js.LICENSE.txt": "/portfolio/static/js/2.44788720.chunk.js.LICENSE.txt",
+    "static/css/main.01bedbcf.chunk.css.map": "/portfolio/static/css/main.01bedbcf.chunk.css.map",
+    "static/js/2.49cb81b0.chunk.js.LICENSE.txt": "/portfolio/static/js/2.49cb81b0.chunk.js.LICENSE.txt",
     "static/media/1.54bf01d3.jpg": "/portfolio/static/media/1.54bf01d3.jpg",
     "static/media/FlipkartLogo.1101c126.png": "/portfolio/static/media/FlipkartLogo.1101c126.png",
     "static/media/KeralaUniversity.b7026ac8.png": "/portfolio/static/media/KeralaUniversity.b7026ac8.png",
     "static/media/KiranDevadas3.c2523dc8.jpeg": "/portfolio/static/media/KiranDevadas3.c2523dc8.jpeg",
     "static/media/University-of-Madras.526a1c89.jpeg": "/portfolio/static/media/University-of-Madras.526a1c89.jpeg",
     "static/media/chairandlight.051ede4f.jpg": "/portfolio/static/media/chairandlight.051ede4f.jpg",
+    "static/media/circle.292a938b.png": "/portfolio/static/media/circle.292a938b.png",
     "static/media/cover-photo.97fa297d.jpeg": "/portfolio/static/media/cover-photo.97fa297d.jpeg",
     "static/media/kiran.1ba2e404.jpeg": "/portfolio/static/media/kiran.1ba2e404.jpeg",
     "static/media/kiranDevadas.61ef3c69.png": "/portfolio/static/media/kiranDevadas.61ef3c69.png",
@@ -31,8 +32,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.b8729fd7.js",
-    "static/js/2.44788720.chunk.js",
-    "static/css/main.065c3d62.chunk.css",
-    "static/js/main.aea55893.chunk.js"
+    "static/js/2.49cb81b0.chunk.js",
+    "static/css/main.01bedbcf.chunk.css",
+    "static/js/main.1cd8cfac.chunk.js"
   ]
 }
