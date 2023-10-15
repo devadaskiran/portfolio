@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.e9a07c61.chunk.css",
-    "main.js": "/portfolio/static/js/main.9fa01d77.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.9fa01d77.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.755630be.chunk.css",
+    "main.js": "/portfolio/static/js/main.a57674c7.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.a57674c7.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.3011444c.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.3011444c.js.map",
     "static/js/2.005169c1.chunk.js": "/portfolio/static/js/2.005169c1.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.fdfd1a1d.chunk.js": "/portfolio/static/js/3.fdfd1a1d.chunk.js",
     "static/js/3.fdfd1a1d.chunk.js.map": "/portfolio/static/js/3.fdfd1a1d.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.e9a07c61.chunk.css.map": "/portfolio/static/css/main.e9a07c61.chunk.css.map",
+    "static/css/main.755630be.chunk.css.map": "/portfolio/static/css/main.755630be.chunk.css.map",
     "static/js/2.005169c1.chunk.js.LICENSE.txt": "/portfolio/static/js/2.005169c1.chunk.js.LICENSE.txt",
     "static/media/1.54bf01d3.jpg": "/portfolio/static/media/1.54bf01d3.jpg",
     "static/media/FlipkartLogo.1101c126.png": "/portfolio/static/media/FlipkartLogo.1101c126.png",
@@ -33,7 +33,7 @@
   "entrypoints": [
     "static/js/runtime-main.3011444c.js",
     "static/js/2.005169c1.chunk.js",
-    "static/css/main.e9a07c61.chunk.css",
-    "static/js/main.9fa01d77.chunk.js"
+    "static/css/main.755630be.chunk.css",
+    "static/js/main.a57674c7.chunk.js"
   ]
 }
