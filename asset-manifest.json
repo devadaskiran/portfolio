@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.87241bd8.chunk.css",
-    "main.js": "/portfolio/static/js/main.fcfced34.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.fcfced34.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.3011444c.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.3011444c.js.map",
-    "static/js/2.b19da13b.chunk.js": "/portfolio/static/js/2.b19da13b.chunk.js",
-    "static/js/2.b19da13b.chunk.js.map": "/portfolio/static/js/2.b19da13b.chunk.js.map",
-    "static/js/3.fdfd1a1d.chunk.js": "/portfolio/static/js/3.fdfd1a1d.chunk.js",
-    "static/js/3.fdfd1a1d.chunk.js.map": "/portfolio/static/js/3.fdfd1a1d.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.bbad61d3.chunk.css",
+    "main.js": "/portfolio/static/js/main.3a425b9c.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.3a425b9c.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.4a3158df.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.4a3158df.js.map",
+    "static/js/2.05bea1f8.chunk.js": "/portfolio/static/js/2.05bea1f8.chunk.js",
+    "static/js/2.05bea1f8.chunk.js.map": "/portfolio/static/js/2.05bea1f8.chunk.js.map",
+    "static/js/3.cdda5c5b.chunk.js": "/portfolio/static/js/3.cdda5c5b.chunk.js",
+    "static/js/3.cdda5c5b.chunk.js.map": "/portfolio/static/js/3.cdda5c5b.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.87241bd8.chunk.css.map": "/portfolio/static/css/main.87241bd8.chunk.css.map",
-    "static/js/2.b19da13b.chunk.js.LICENSE.txt": "/portfolio/static/js/2.b19da13b.chunk.js.LICENSE.txt",
+    "static/css/main.bbad61d3.chunk.css.map": "/portfolio/static/css/main.bbad61d3.chunk.css.map",
+    "static/js/2.05bea1f8.chunk.js.LICENSE.txt": "/portfolio/static/js/2.05bea1f8.chunk.js.LICENSE.txt",
     "static/media/1.54bf01d3.jpg": "/portfolio/static/media/1.54bf01d3.jpg",
     "static/media/FlipkartLogo.1101c126.png": "/portfolio/static/media/FlipkartLogo.1101c126.png",
     "static/media/KeralaUniversity.b7026ac8.png": "/portfolio/static/media/KeralaUniversity.b7026ac8.png",
     "static/media/KiranDevadas3.c2523dc8.jpeg": "/portfolio/static/media/KiranDevadas3.c2523dc8.jpeg",
     "static/media/University-of-Madras.526a1c89.jpeg": "/portfolio/static/media/University-of-Madras.526a1c89.jpeg",
+    "static/media/airbnb-replica.0fcd8998.jpg": "/portfolio/static/media/airbnb-replica.0fcd8998.jpg",
     "static/media/chairandlight.051ede4f.jpg": "/portfolio/static/media/chairandlight.051ede4f.jpg",
     "static/media/circle.292a938b.png": "/portfolio/static/media/circle.292a938b.png",
     "static/media/cover-photo.97fa297d.jpeg": "/portfolio/static/media/cover-photo.97fa297d.jpeg",
@@ -31,9 +32,9 @@
     "static/media/website-design-software-provide-modish-template-online-retail-business.394b5783.jpg": "/portfolio/static/media/website-design-software-provide-modish-template-online-retail-business.394b5783.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3011444c.js",
-    "static/js/2.b19da13b.chunk.js",
-    "static/css/main.87241bd8.chunk.css",
-    "static/js/main.fcfced34.chunk.js"
+    "static/js/runtime-main.4a3158df.js",
+    "static/js/2.05bea1f8.chunk.js",
+    "static/css/main.bbad61d3.chunk.css",
+    "static/js/main.3a425b9c.chunk.js"
   ]
 }
