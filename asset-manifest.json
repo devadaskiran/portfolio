@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.623aa1f5.chunk.css",
-    "main.js": "/portfolio/static/js/main.2deb2254.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.2deb2254.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.4a3158df.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.4a3158df.js.map",
-    "static/js/2.850639a4.chunk.js": "/portfolio/static/js/2.850639a4.chunk.js",
-    "static/js/2.850639a4.chunk.js.map": "/portfolio/static/js/2.850639a4.chunk.js.map",
-    "static/js/3.cdda5c5b.chunk.js": "/portfolio/static/js/3.cdda5c5b.chunk.js",
-    "static/js/3.cdda5c5b.chunk.js.map": "/portfolio/static/js/3.cdda5c5b.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.40475093.chunk.css",
+    "main.js": "/portfolio/static/js/main.7a07a940.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.7a07a940.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.49bc69db.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.49bc69db.js.map",
+    "static/js/2.4c353a95.chunk.js": "/portfolio/static/js/2.4c353a95.chunk.js",
+    "static/js/2.4c353a95.chunk.js.map": "/portfolio/static/js/2.4c353a95.chunk.js.map",
+    "static/js/3.39a1febc.chunk.js": "/portfolio/static/js/3.39a1febc.chunk.js",
+    "static/js/3.39a1febc.chunk.js.map": "/portfolio/static/js/3.39a1febc.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.623aa1f5.chunk.css.map": "/portfolio/static/css/main.623aa1f5.chunk.css.map",
-    "static/js/2.850639a4.chunk.js.LICENSE.txt": "/portfolio/static/js/2.850639a4.chunk.js.LICENSE.txt",
+    "static/css/main.40475093.chunk.css.map": "/portfolio/static/css/main.40475093.chunk.css.map",
+    "static/js/2.4c353a95.chunk.js.LICENSE.txt": "/portfolio/static/js/2.4c353a95.chunk.js.LICENSE.txt",
     "static/media/1.54bf01d3.jpg": "/portfolio/static/media/1.54bf01d3.jpg",
     "static/media/FlipkartLogo.1101c126.png": "/portfolio/static/media/FlipkartLogo.1101c126.png",
     "static/media/KeralaUniversity.b7026ac8.png": "/portfolio/static/media/KeralaUniversity.b7026ac8.png",
@@ -32,9 +32,9 @@
     "static/media/website-design-software-provide-modish-template-online-retail-business.394b5783.jpg": "/portfolio/static/media/website-design-software-provide-modish-template-online-retail-business.394b5783.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.4a3158df.js",
-    "static/js/2.850639a4.chunk.js",
-    "static/css/main.623aa1f5.chunk.css",
-    "static/js/main.2deb2254.chunk.js"
+    "static/js/runtime-main.49bc69db.js",
+    "static/js/2.4c353a95.chunk.js",
+    "static/css/main.40475093.chunk.css",
+    "static/js/main.7a07a940.chunk.js"
   ]
 }
