@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.51470656.css",
+    "main.css": "/portfolio/static/css/main.c1b7e9c8.css",
     "main.js": "/portfolio/static/js/main.d20c4a02.js",
     "static/js/787.105c0a92.chunk.js": "/portfolio/static/js/787.105c0a92.chunk.js",
     "static/media/programming-code-abstract-technology-background-software-developer-computer-script.jpg": "/portfolio/static/media/programming-code-abstract-technology-background-software-developer-computer-script.fb939c4bbbaf4407a1bd.jpg",
@@ -22,12 +22,12 @@
     "static/media/1.jpg": "/portfolio/static/media/1.54bf01d341384b5dbbcf.jpg",
     "index.html": "/portfolio/index.html",
     "static/media/logo.svg": "/portfolio/static/media/logo.534218d37f97e2bbfe0e484c9293d045.svg",
-    "main.51470656.css.map": "/portfolio/static/css/main.51470656.css.map",
+    "main.c1b7e9c8.css.map": "/portfolio/static/css/main.c1b7e9c8.css.map",
     "main.d20c4a02.js.map": "/portfolio/static/js/main.d20c4a02.js.map",
     "787.105c0a92.chunk.js.map": "/portfolio/static/js/787.105c0a92.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.51470656.css",
+    "static/css/main.c1b7e9c8.css",
     "static/js/main.d20c4a02.js"
   ]
 }
