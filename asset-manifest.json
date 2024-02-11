@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.e9f7206a.css",
-    "main.js": "/portfolio/static/js/main.1697051b.js",
+    "main.js": "/portfolio/static/js/main.43e6a8ec.js",
     "static/js/787.105c0a92.chunk.js": "/portfolio/static/js/787.105c0a92.chunk.js",
     "static/media/programming-code-abstract-technology-background-software-developer-computer-script.jpg": "/portfolio/static/media/programming-code-abstract-technology-background-software-developer-computer-script.fb939c4bbbaf4407a1bd.jpg",
     "static/media/website-design-software-provide-modish-template-online-retail-business.jpg": "/portfolio/static/media/website-design-software-provide-modish-template-online-retail-business.394b578316208aabb7ff.jpg",
@@ -23,11 +23,11 @@
     "index.html": "/portfolio/index.html",
     "static/media/logo.svg": "/portfolio/static/media/logo.534218d37f97e2bbfe0e484c9293d045.svg",
     "main.e9f7206a.css.map": "/portfolio/static/css/main.e9f7206a.css.map",
-    "main.1697051b.js.map": "/portfolio/static/js/main.1697051b.js.map",
+    "main.43e6a8ec.js.map": "/portfolio/static/js/main.43e6a8ec.js.map",
     "787.105c0a92.chunk.js.map": "/portfolio/static/js/787.105c0a92.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e9f7206a.css",
-    "static/js/main.1697051b.js"
+    "static/js/main.43e6a8ec.js"
   ]
 }
